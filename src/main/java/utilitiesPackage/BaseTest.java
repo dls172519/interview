@@ -20,7 +20,7 @@ public class BaseTest {
 	public void launchBrowser() {
 		
 
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\xxchikks\\eclipse-workspace\\test\\test\\drivers\\msedgedriver.exe");
+		System.setProperty("webdriver.edge.driver", ".\\drivers\\msedgedriver.exe");
 		
 		
 		 driver=new EdgeDriver();
